@@ -2,3 +2,44 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
+
+.first-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.first-left {
+    width: 50%;
+}
+
+.first-right {
+    width: 50%;
+}
+
+.right-title {
+    color: var(--Dark-01, #151414);
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    background: #F15B22;
+    ;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* second section */
+
+.second-section {
+    display: flex;
+    justify-content: center;
+}
