@@ -37,6 +37,7 @@
      margin-top: 100px;
      margin-bottom: 100px;
      display: flex;
+     justify-content: space-evenly;
  }
 
  .sec-description {
@@ -51,3 +52,48 @@
  .para-title {
      margin-bottom: 15px;
  }
+
+ .title-third {
+     text-align: center;
+     margin-top: 25px;
+     margin-bottom: 50px;
+ }
+
+ .icon-section {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 150px;
+ }
+
+ .sec-four {
+     background-image: url(/banner/icons/watch.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     margin: 200px;
+     padding: 100px;
+
+ }
+
+ .title-white {
+     color: #fff;
+     font-weight: 700;
+ }
+
+ .btn-call {
+     padding: 10px;
+     color: white;
+     font-weight: 500;
+     background-color: #F15B22;
+     border-radius: 5px;
+
+ }
+
+ .foot-end {
+     padding: 50px;
+     display: flex;
+     justify-content: space-around;
+     background-color: coral;
+ }
+
+ .foot-des {}
